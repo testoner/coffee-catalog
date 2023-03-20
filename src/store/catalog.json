@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Instant Coffee box",
+        "brand": "lavazza",
+        "price": 1,
+        "rate": 4,
+        "comment": 5,
+        "link": "https://www.logoton.by/upload/Sh/imageCache/207/087/0870192479659858.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Espresso coffee beans",
+        "brand": "belmo",
+        "price": 2,
+        "rate": 3,
+        "comment": 4,
+        "link": "https://3259404.ru/upload/ammina.optimizer/jpg-webp/q80/upload/iblock/f61/f6124678a4972251a8e61c78f625602e.webp"
+    }
+]

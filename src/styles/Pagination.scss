@@ -1,0 +1,23 @@
+.pagination{
+    padding: 0 1rem;
+    margin: 0 auto;
+    display: flex;  
+    align-items: center;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+
+    &-btn{
+        padding: 1rem 2rem;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: .4rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 425px){
+    .pagination{
+        flex-direction: column-reverse;
+        row-gap: 1rem;
+    }
+}

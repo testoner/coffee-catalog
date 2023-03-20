@@ -1,0 +1,60 @@
+.filters{
+    padding: 0 2rem 0;
+    
+    &-wrapper{
+        display: flex;
+        align-items: center; 
+        column-gap: .6rem;
+        cursor: pointer;
+    }
+    
+    &-content{
+        padding: 2rem;
+        display: flex;
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        row-gap: 1.5rem;
+        opacity: 0;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease; 
+
+        .input{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: .6rem;
+            column-gap: .6rem;
+            &-before, &-from{
+                padding: 1rem 2rem;
+                width: 20%;
+            }
+            input{
+                padding: .4rem .7rem;
+            }
+        }
+    }
+
+    &-button{
+        width: 10rem;
+        padding: .5rem 1rem;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: .4rem;
+        cursor: pointer;
+    }
+
+    &-brands{
+        width: auto;
+        min-height: 120px;
+        overflow-y: scroll;
+    }
+
+}
+
+.d-block{
+    opacity: 1 !important;
+    height: 500px;
+}

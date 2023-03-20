@@ -1,0 +1,33 @@
+// .item-card{
+//     max-width: 20%;
+//     flex-basis: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     row-gap: 1rem;
+// }
+
+.item {
+    &-card {
+        min-width: 300px;
+        max-width: 20%;
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    &-title{
+        text-align: center;
+    }
+}
+
+.rate-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+// .item-title{
+//     text-align: center;
+// }
